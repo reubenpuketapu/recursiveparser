@@ -1,0 +1,11 @@
+if(eq($var, 1)){
+	turnL;
+}
+elif(eq(2, 1)){
+	turnR;
+	move;
+}
+else{
+	move;
+	turnL;
+}
